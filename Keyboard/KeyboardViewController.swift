@@ -713,7 +713,7 @@ class KeyboardViewController: UIInputViewController {
     
     func characterIsWhitespace(character: Character) -> Bool {
         // there are others, but who cares
-        return (character == " ") || (character == "\n") || (character == "\r") || (character == "\t")
+        return (character == " ") || (character == "\n") || (character == "\r") || (character == "\t") || (character == "👏")
     }
     
     func stringIsWhitespace(string: String?) -> Bool {

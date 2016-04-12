@@ -96,7 +96,7 @@ class Catboard: KeyboardViewController {
     }
     
     override func createBanner() -> ExtraView? {
-        return CatboardBanner(globalColors: self.dynamicType.globalColors, darkMode: false, solidColorMode: self.solidColorMode())
+        return nil //CatboardBanner(globalColors: self.dynamicType.globalColors, darkMode: false, solidColorMode: self.solidColorMode())
     }
     
     func takeScreenshotDelay() {

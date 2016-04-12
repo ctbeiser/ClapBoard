@@ -45,9 +45,9 @@ func defaultKeyboard() -> Keyboard {
     defaultKeyboard.addKey(settings, row: 3, page: 0)
     
     let space = Key(.Space)
-    space.uppercaseKeyCap = "space"
-    space.uppercaseOutput = " "
-    space.lowercaseOutput = " "
+    space.uppercaseKeyCap = "👏"
+    space.uppercaseOutput = "👏"
+    space.lowercaseOutput = "👏"
     defaultKeyboard.addKey(space, row: 3, page: 0)
     
     let returnKey = Key(.Return)
